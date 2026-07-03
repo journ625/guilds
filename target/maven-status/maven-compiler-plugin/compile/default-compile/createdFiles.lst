@@ -1,0 +1,9 @@
+com\guildcraft\guildplugin\GuildPlugin.class
+com\guildcraft\guildplugin\placeholder\GuildPlaceholders.class
+com\guildcraft\guildplugin\listener\PlayerListener.class
+com\guildcraft\guildplugin\manager\GuildManager.class
+com\guildcraft\guildplugin\model\Guild.class
+com\guildcraft\guildplugin\manager\GuildManager$PendingInvite.class
+com\guildcraft\guildplugin\util\GuildException.class
+com\guildcraft\guildplugin\util\ColorUtil.class
+com\guildcraft\guildplugin\command\GuildCommand.class

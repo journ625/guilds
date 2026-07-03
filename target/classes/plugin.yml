@@ -1,0 +1,21 @@
+name: GuildPlugin
+version: '1.0.0'
+main: com.guildcraft.guildplugin.GuildPlugin
+api-version: '1.18'
+author: GuildCraft
+description: Guild (csapat) rendszer kill/death követéssel és PlaceholderAPI támogatással
+softdepend: ["PlaceholderAPI"]
+
+commands:
+  guild:
+    description: Guild parancsok
+    usage: /guild
+    aliases: [g, csapat]
+
+permissions:
+  guild.use:
+    description: Alap guild parancsok használata
+    default: true
+  guild.admin:
+    description: Guild admin parancsok használata
+    default: op

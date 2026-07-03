@@ -1,0 +1,19 @@
+# =========================================
+#   GuildPlugin - konfiguráció
+# =========================================
+
+# Egy guild maximum hány tagot tartalmazhat (leader + co-leaderek + tagok)
+max-members: 10
+
+# Alapértelmezett guild szín (HTML/HEX formátum, # nélkül)
+default-color: "FFFFFF"
+
+# Meghívó ennyi másodperc után jár le (0 = sosem jár le)
+invite-expire-seconds: 60
+
+# Guild nevek minimum / maximum hossza
+name-min-length: 3
+name-max-length: 16
+
+# Toplista mérete a /guild top parancsnál
+top-list-size: 10
